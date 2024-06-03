@@ -1,14 +1,18 @@
+// app/build.gradle.kts (Module-level)
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.m_lab1"
+    namespace = "com.example.mlab1"  // Змініть підкреслення на крапку або видаліть його
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.m_lab1"
+        applicationId = "com.example.mlab1"  // Змініть підкреслення на крапку або видаліть його
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -58,6 +62,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

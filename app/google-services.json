@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252085651686",
+    "project_id": "mlab1-e40bf",
+    "storage_bucket": "mlab1-e40bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252085651686:android:4b614f2cbbcbbee0319327",
+        "android_client_info": {
+          "package_name": "com.example.mlab1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATEtMJ9ahYbP9kYSCxFHQ58wj0Dkf5Aj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
